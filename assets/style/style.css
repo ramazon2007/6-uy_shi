@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.sidebar {
+    width: 120px;
+    height: 740px;
+    background-color: blue;
+    margin-left: -120px;
+    transition: .5s;
+    top: -10px;
+    border-radius: 10px;
+    position: relative;
+
+
+
+}
+
+.close {
+    display: none;
+    margin-left: 150px;
+    font-size: 30px;
+    top: 50px;
+    border: transparent;
+    background-color: transparent;
+
+}
+
+.active {
+    font-size: 30px;
+    margin-left: 30px;
+    border: transparent;
+    background-color: transparent;
+
+}
+
+.main {
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.fa-fire {
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    color: white;
+}
+.border{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-fire:hover+.border{
+    display: block;
+    transition: 1s;
+}
+.fa-fire:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-compass{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 130px;
+    color: white;
+    transition: 0.5s;
+}
+.border2{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:120px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-compass:hover+.border2{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+
+
+.fa-compass:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-house-flag{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 220px;
+    color: white;
+    transition: 0.5s;
+
+}
+.border3{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:220px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-house-flag:hover+.border3{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+
+.fa-house-flag:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-hourglass-start{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 310px;
+    color: white;
+    transition: 0.5s;
+}
+.border4{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:300px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-hourglass-start:hover+.border4{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+
+.fa-hourglass-start:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-hotel{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 400px;
+    color: white;
+    transition: 0.5s;
+}
+.border5{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:400px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-hotel:hover+.border5{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+.fa-hotel:hover{
+    transition: 0.5s;
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+
+}
+.fa-hotdog{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 490px;
+    color: white;
+    transition: 0.5s;
+}
+.border6{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:480px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+ .fa-hotdog:hover+.border6{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+.fa-hotdog:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bi-database-fill{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 565px;   
+    color: white;
+    transition: 0.5s; 
+}
+.border7{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:565px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.bi-database-fill:hover+.border7{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+}
+.bi-database-fill:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-fire-flame-curved{
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 660px; 
+    color: white;
+    transition: 0.5s;   
+
+}
+.border8{
+    width: 4px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top:665px;
+    background-color: white;
+    display: none;
+    transition: 0.5s;
+}
+.fa-fire-flame-curved:hover+.border8{
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+
+}
+.fa-fire-flame-curved:hover{
+    color: rgb(5, 226, 163);
+    cursor: pointer;
+    transition: 0.5s;
+}
